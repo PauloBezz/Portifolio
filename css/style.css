@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 55px;
+    margin-top: 62px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 240px;
+}
+
+span {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span > img {
+    width: 50.06px;
+    height: 55px;
+}
+
+span > h2 {
+    font-size: 36px;
+    color: #445964;
+
+}
+nav {
+    display: flex;
+    width: 856px;
+    justify-content: space-between;
+
+}
+
+nav > a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #445964;
+
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 697px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 172px;
+}
+
+main > img {
+    width: 705px;
+    height: 697px;
+}
+
+.saudacao {
+    width: 545px;
+    height: 650.55px;
+    display: flex;
+    flex-direction: column;
+    color: #445964;
+    margin-top: 41px;
+}
+
+.title {
+    width: 545px;
+    height: 240px;
+    margin-bottom: 130px;
+}
+
+.title > h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bigTitle {
+    font-size: 72px;
+}
+
+.button {
+    width: 310px;
+    height: 65px;
+    display: flex;
+    background-color: #263138;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 172px;
+}
+
+.button > a {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.links {
+    width: 172px;
+    height: 43.55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.programador {
+    width: 705px;
+    height: 697px;
+    margin-left: 167px;
+}
+
+
