@@ -22,7 +22,7 @@ span {
     justify-content: space-between;
 }
 
-span > img {
+.logo {
     width: 50.06px;
     height: 55px;
 }
@@ -53,6 +53,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 172px;
+    margin-bottom: 149px;
 }
 
 main > img {
@@ -113,5 +114,108 @@ main > img {
     height: 697px;
     margin-left: 167px;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section > span {
+    display: flex;
+    width: 764px;
+    margin-bottom: 71px;
+}
+
+span > img {
+    width: 219px;
+    height: 219px;
+}
+
+span > h1{
+    font-size: 64px;
+    color: #445964;
+    font-weight: 700;
+}
+
+section > h3 {
+    width: 992px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hardskills{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(4, auto);
+    /* repeat(nº repetições, oq vai repetir) */
+    gap: 46px;
+    margin-top: 108px;
+    margin-bottom: 233px;
+}
+
+.titleHard {
+    display: flex; 
+    gap: 16px;
+    grid-column: 1 / -1;
+    margin-bottom: 16px;
+}
+.titleHard > h1 {
+    font-size: 64px;
+    color: #263138;
+}
+
+.hardskills > h1 {
+    font-size: 64px;
+}
+
+.hard{
+    display: flex;
+    width: 216px;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 25px;
+}
+
+.hard > h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #445964
+}
+.circles{
+    display: flex;
+    gap: 4px;
+}
+
+.circlefull{
+    width: 38px;
+    height: 38px;
+    background-color: #445964;
+    border-radius: 100px;
+    border: 1px solid #445964;
+}
+
+.circle {
+    width: 38px;
+    height: 38px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: 1px solid #445964;
+}
+
+article {
+    display: flex;
+    align-items: center;
+}
+
+span {
+
+}
+
+.titlePort {
+    
+}
+
 
 
