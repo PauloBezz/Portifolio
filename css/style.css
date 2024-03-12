@@ -10,9 +10,9 @@ header {
     height: 55px;
     margin-top: 62px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     display: flex;
-    gap: 240px;
+    
 }
 
 header > span {
@@ -27,23 +27,26 @@ header > span {
     height: 55px;
 }
 
-span > h2 {
+header > span > h2 {
     font-size: 36px;
     color: #445964;
 
 }
+
+.buttonMenu{
+    display: none;
+}
+
 header > nav {
     display: flex;
-    width: 856px;
+    width: 40%;
     justify-content: space-between;
-
 }
 
 nav > a {
     font-size: 20px;
     font-weight: 500;
     color: #445964;
-
 }
 
 main {
@@ -56,9 +59,10 @@ main {
     margin-bottom: 149px;
 }
 
-main > img {
-    width: 705px;
-    height: 697px;
+.inicio {
+    display: flex;
+    width: 1417px;
+    justify-content: space-between;
 }
 
 .saudacao {
@@ -104,15 +108,13 @@ main > img {
 
 .links {
     width: 172px;
-    height: 43.55px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
 }
 
 .programador {
     width: 705px;
-    height: 697px;
-    margin-left: 167px;
 }
 
 section {
@@ -375,6 +377,7 @@ section > h3 {
     width: 100%;
     align-items: center;
     margin-top: 143px;
+    margin-bottom: 110px;
 }
 
 #resumo > span {
@@ -474,30 +477,148 @@ section > h3 {
     display: flex;
     flex-direction: row;
     font-size: 24px;
-    gap: 10px;
+    gap: 6px;
     justify-content: center;
-    
 }
 
 .nota > h3{
     display: flex;
     font-size: 24px;
+
     color: #445964;
-    font-weight: 600;
 }
 
 
 .dark > h3{
     font-size: 24px;
-    color: #000;
+    color: #445964;
+    font-weight: 800;
 }
 
 .frase > h3 {
     font-size: 24px;
+
 }
 
 .author {
     display: flex;
     flex-direction: row;
     font-size: 36px;
+}
+
+#contato {
+    width: 100%;
+    height: 218px;
+    background-color: #263138;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contato > span {
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    margin-left: 151px;
+}
+
+#contato > span > h2 {
+    color: #ffffff;
+    display: flex;
+}
+
+#contato > p {
+    color: #ffffff;
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 18px;
+}
+
+#contato > .links {
+    display: flex;
+    width: 172px;
+    justify-content: space-between;
+    margin-right: 151px;
+}
+
+@media screen and (max-width: 520px) {
+
+    /* CABEÇALHO */
+    header {
+        height: 44px;
+        margin-top: 18px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 43.95px;
+    }
+
+    header > span{
+        width: 80%;
+        justify-content:flex-start;
+        gap: 10px;
+    }
+
+    header > span > h2 {
+        font-size: 20px;
+    }
+
+    .buttonMenu {
+        display: flex;
+    }
+
+    header > nav {
+        display: none;
+    }
+
+    main{
+        flex-direction: column;
+        margin-top: 34px;
+        margin-bottom: 126px;
+        height: auto;
+    }
+
+    .inicio {
+        width: 90%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .programador {
+        width: 95%;
+    }
+
+    .saudacao {
+        width: 80%;
+        align-items: center;
+        height: 378px;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+
+    .title {
+        width: 300px;
+        height: 127px;
+        margin-bottom: 0px;
+    }
+    .title > h3 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .bigTitle {
+        font-size: 36px;
+    }
+
+    .button {
+        width: 238px;
+        height: 51px;
+        margin-bottom: 0px;
+    }
+    
+    .button > a {
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+    }
 }
