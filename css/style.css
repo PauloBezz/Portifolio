@@ -117,37 +117,34 @@ main {
     width: 705px;
 }
 
-section {
+#sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section > span {
+.icon {
+    background-image: url('/img/Foto.svg');
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 180px;
+}
+
+#sobre > span {
     display: flex;
     width: 764px;
     margin-bottom: 71px;
-}
-
-section > span {
-    display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 764px;
 }
 
-span > img {
-    width: 219px;
-    height: 219px;
-}
-
-section > span > h1{
+#sobre > span > h1{
     font-size: 64px;
     color: #445964;
     font-weight: 700;
 }
 
-section > h3 {
+#sobre > h3 {
     width: 992px;
     font-size: 24px;
     text-align: center;
@@ -175,10 +172,6 @@ section > h3 {
     color: #263138;
 }
 
-.hardskills > h1 {
-    font-size: 64px;
-}
-
 .hard{
     display: flex;
     width: 216px;
@@ -192,6 +185,7 @@ section > h3 {
     font-weight: 700;
     color: #445964
 }
+
 .circles{
     display: flex;
     gap: 4px;
@@ -219,7 +213,6 @@ section > h3 {
     width: 100%;
     align-items: center;
 }
-
 
 .jobs {
     display: flex;
@@ -525,6 +518,7 @@ section > h3 {
 #contato > span > h2 {
     color: #ffffff;
     display: flex;
+    font-size: 36px;
 }
 
 #contato > p {
@@ -604,7 +598,6 @@ section > h3 {
     }
     .title > h3 {
         font-size: 15px;
-        font-weight: 500;
     }
     .bigTitle {
         font-size: 36px;
@@ -617,8 +610,96 @@ section > h3 {
     }
     
     .button > a {
-        color: white;
         font-size: 17px;
         font-weight: 500;
+    }
+
+    #sobre > span {
+        width: 341px;
+        margin-bottom: 26px;
+    }
+
+    .icon {
+        background-image: url('/img/icon-mobile.svg');
+        width: 90px;
+        height: 90px;
+    }
+
+    #sobre > span > h1{
+        font-size: 32px;
+    }
+
+    #sobre > h3 {
+        width: 341px;
+        font-size: 16px;
+    }
+    
+    .hardskills{
+        grid-template-columns: repeat(2, auto);
+        /* repeat(nº repetições, oq vai repetir) */
+        gap: 27px 100px;
+        margin-top: 30px;
+        margin-bottom: 81px;
+    }
+
+    .titleHard {
+        gap: 0px;
+        margin-bottom: 0px;
+    }
+    .titleHard > h1 {
+        font-size: 32px;
+    }
+
+    .hard{
+        width: 120px;
+        gap: 0px;
+        margin-bottom: 0px;
+    }
+
+    .hard > h3 {
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    .circles{
+        gap: 5px;
+    }
+
+    .circlefull{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .circle {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .jobs {
+        width: 100%;
+        gap: 0px;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 90px;
+    }
+    
+    .titlePort > h1{
+        font-size: 32px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -42px;
+        margin-left: 75px;
+        
+    }
+    
+    .jobs > h1 {
+        font-size: 32px;
+    }
+    
+    .jobs > h3 {
+        text-align: center;
+        font-size: 14px;
+        width: 90%;
+        margin-bottom: 19px;
     }
 }
