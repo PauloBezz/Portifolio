@@ -12,13 +12,11 @@ header {
     align-items: center;
     justify-content: space-around;
     display: flex;
-    
 }
 
 header > span {
     width: 320px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -547,7 +545,7 @@ main {
         height: 43.95px;
     }
 
-    header > span{
+    header > span {
         width: 80%;
         justify-content:flex-start;
         gap: 10px;
@@ -557,8 +555,25 @@ main {
         font-size: 20px;
     }
 
+
+    /* MENU MOBILE */
+
     .buttonMenu {
         display: flex;
+        align-items: center;
+        background-color: #445964;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 50vh;
+        z-index: 99999;
+        width: 30%;
+    }
+
+    .buttonMenu > nav > a {
+        color: #ffffff;
+        font-size: 16px;
+        text-align: center;
     }
 
     header > nav {
@@ -904,5 +919,46 @@ main {
         margin-bottom: 64px;
     }
 
+    #contato {
+        width: 100%;
+        background-color: #263138;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    #contato > span {
+        width: 240px;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 0px;
+    }
     
+    #contato > span > h2 {
+        font-size: 24px;
+    }
+    
+    #contato > p {
+        width: 214px;
+        align-self: center;
+        margin-bottom: 0px;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    #contato > .links {
+        width: 130px;
+        justify-content: space-between;
+        margin-right: 0px;
+    }
+
+    .links{
+        height: 30px;
+    }
+
+    .links > a > img {
+        height: 30px;
+    }
+
 }
