@@ -254,7 +254,6 @@ main {
     gap: 20px;
     grid-column: 1 / -1;
     margin-bottom: 86px;
-
 }
 
 .cards > nav > a {
@@ -680,16 +679,13 @@ main {
         gap: 0px;
         align-items: center;
         flex-direction: column;
-        margin-bottom: 90px;
+        margin-bottom: 19px;
     }
     
     .titlePort > h1{
         font-size: 32px;
-        display: flex;
-        flex-direction: row;
         margin-top: -42px;
         margin-left: 75px;
-        
     }
     
     .jobs > h1 {
@@ -700,6 +696,213 @@ main {
         text-align: center;
         font-size: 14px;
         width: 90%;
-        margin-bottom: 19px;
+        margin-bottom: 0px;
     }
+    .cards {
+        grid-template-columns: repeat(2, auto);
+        gap: 20px 20px;
+        margin-bottom: 82px;
+    }
+    
+    .cards > nav{
+        width: 100%;
+        display: flex;
+        height: 39px;
+        gap: 5px;
+        margin-bottom: 0px;
+        justify-content: center;
+        
+    }
+    
+    .cards > nav > a {
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+
+    .card1 {
+        width: 180px;
+        height: 180px;
+    }
+
+    .card2 {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 0px;
+    }
+    .card3 {
+        width: 180px;
+        height: 180px;
+    }
+    .card4 {
+        width: 180px;
+        height: 180px;
+        margin-top: 0px;
+    }
+    .card5 {
+        width: 180px;
+        height: 180px;
+    }
+    .card6 {
+        width: 180px;
+        height: 180px;
+        margin-top: 0px;
+    }
+    
+    #servicos > h1 {
+        font-size: 32px;
+        margin-bottom: 31px;
+        gap: 8px;
+    }
+    
+    .asideTitle > h1{
+        font-size: 32px;
+    }
+    
+    #servicos > img {
+        height: 106px;
+    }
+    
+    #servicos > h4 {
+        display: flex;
+        font-size: 24px;
+        gap: 10px;
+        margin-bottom: 29px;
+    }
+    
+    #servicos > p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .useTitle {
+        font-size: 24px;
+    }
+    
+    .icons {
+        gap: 25px;
+        margin-bottom: 31px;
+    }
+
+    .icons > img {
+        width: 60px;
+    }
+
+    #resumo {
+        margin-top: 116px;
+        margin-bottom: 64px;
+
+    }
+    
+    #resumo > span {
+        flex-direction: column-reverse;
+        width: 420px;
+        margin-bottom: 61px;
+    }
+    
+    #resumo > span > p {
+        text-align: center;
+        width: 99%;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    
+    #resumo > span > h1 {
+        display: flex;
+        font-size: 32px;
+        gap: 10px;
+        align-self: center;
+    }
+    
+    .titleResumo > h1 {
+        font-size: 32px;
+        margin-top: 0px;
+
+    }
+    
+    .cargos {
+        flex-direction: column;
+        gap: 30px;
+        height: 621px;
+        justify-content: center;
+        margin-bottom: 52px;
+        align-items: center;
+    }
+    
+    .cargo {
+        width: 350px;
+        height: 187px;
+        margin-bottom: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cargo > h3 {
+        font-size: 24px;
+        margin-top: 0px;
+        margin-bottom: 21px;
+    }
+    
+    .cargo > p {
+        width: 300px;
+        font-size: 16px;
+    }
+    
+    .cargo2 {
+        width: 350px;
+        height: 187px;
+        margin-top: 0px;
+        justify-content: center;
+    }
+    
+    .cargo2 > h3 {
+        font-size: 24px;
+        margin-top: 0px;
+        margin-bottom: 21px;
+    }
+    
+    .cargo2 > p {
+        width: 300px;
+        font-size: 16px;
+    }
+    
+    .aspas {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+    
+    .nota {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        gap: 6px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nota > h3{
+        display: flex;
+        font-size: 16px;
+        color: #445964;
+    }
+    
+    .dark > h3{
+        font-size: 16px;
+    }
+    
+    .frase > h3 {
+        font-size: 16px;
+    }
+    
+    .author {
+        display: flex;
+        flex-direction: row;
+        font-size: 24px;
+        margin-top: 18px;
+        margin-bottom: 64px;
+    }
+
+    
 }
