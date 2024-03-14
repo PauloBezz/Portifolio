@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+    <script src="menu.js" defer></script> <!-- DEFER SERVE PARA CARREGAR O SCRIPT ASSIM QUE O HTML CARREGAR TOTALMENTE-->
     <title>Meu portifólio</title>
 </head>
 <body>
@@ -14,14 +16,11 @@
             <h2>Paulo Henrique</h2>
         </span>
 
-        <img src="img/button-menu.svg" alt="">
-        
-        <div class="buttonMenu">
-            <div class="btnClose">
-                <img src="img/Arrow.svg" alt="">
+        <div class="btnOpen">
+            <img src="img/button-menu.svg" id="btn-menu">
+        </div>
 
-            </div>
-
+        <div class="buttonMenu" id="conteudo-menu">
             <nav>
                 <a href="index.html" target="_self">home</a>
                 <a href="#sobre" target="_self">sobre</a>
@@ -31,6 +30,8 @@
                 <a href="#contato" target="_self">contato</a>
             </nav>
         </div>
+
+        <div class="overlay-menu" id="over"></div>
 
         <nav>
             <a href="index.html" target="_self">home</a>
@@ -240,18 +241,20 @@
         </aside>
 
     <footer id="contato">
-        <span>
-            <a href="index.html"><img class="logo" src="/img/footer-logo.svg" alt="Logo" ></a>
-            <h2>Paulo Henrique</h2>
-        </span>
-        
-        <div class="links">
-            <a href="https://github.com/PauloBezz"><img src="img/footer-Git.svg" alt=""></a>
-            <a href="https://www.linkedin.com/in/paulo-henrique-83b0a4221/"><img src="img/footer-Linkedin.svg" alt=""></a>
-            <a href=""><img src="img/footer-insta.svg" alt=""></a>
-        </div>
-        <p>Copyright © 2022 Paulo Henrique - Todos os direitos reservados</p>
+        <div class="nomeContato">
+            <span>
+                <a href="index.html"><img class="logo" src="/img/footer-logo.svg" alt="Logo" ></a>
+                <h2>Paulo Henrique</h2>
+            </span>
 
+            <div class="links">
+                <a href="https://github.com/PauloBezz"><img src="img/footer-Git.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/paulo-henrique-83b0a4221/"><img src="img/footer-Linkedin.svg" alt=""></a>
+                <a href=""><img src="img/footer-insta.svg" alt=""></a>
+            </div>
+        </div>
+        
+        <p>Copyright © 2022 Paulo Henrique - Todos os direitos reservados</p>
     </footer>
 
 </body>

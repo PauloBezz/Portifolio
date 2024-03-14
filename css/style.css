@@ -35,6 +35,10 @@ header > span > h2 {
     display: none;
 }
 
+.btnOpen{
+    display: none;
+}
+
 header > nav {
     display: flex;
     width: 40%;
@@ -54,7 +58,6 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 172px;
-    margin-bottom: 149px;
 }
 
 .inicio {
@@ -70,6 +73,7 @@ main {
     flex-direction: column;
     color: #445964;
     margin-top: 41px;
+    margin-left: 2%;
 }
 
 .title {
@@ -112,7 +116,10 @@ main {
 }
 
 .programador {
-    width: 705px;
+    width: 45%;
+    height: 10%;
+    margin-right: 2%;
+    align-self: center;
 }
 
 #sobre {
@@ -231,7 +238,6 @@ main {
 }
 
 .jobs > h3 {
-    display: flex;
     font-size: 24px;
     color: #445964;
     width: 398px;
@@ -497,22 +503,30 @@ main {
 }
 
 #contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 218px;
+    gap: 40px;
     background-color: #263138;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
-#contato > span {
+.nomeContato {
+    display: flex;
+    width: 1100px;
+    height: 55px;
+    justify-content: space-between;
+    margin-top: 81px;
+}
+
+.nomeContato > span {
     display: flex;
     width: 320px;
     justify-content: space-between;
-    margin-left: 151px;
 }
 
-#contato > span > h2 {
+.nomeContato > span > h2 {
     color: #ffffff;
     display: flex;
     font-size: 36px;
@@ -521,18 +535,16 @@ main {
 #contato > p {
     color: #ffffff;
     display: flex;
-    align-self: flex-end;
     margin-bottom: 18px;
 }
 
-#contato > .links {
+.nomeContato > .links {
     display: flex;
     width: 172px;
-    justify-content: space-between;
-    margin-right: 151px;
+    margin-right: 0px;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 576px) {
 
     /* CABEÇALHO */
     header {
@@ -553,29 +565,82 @@ main {
 
     header > span > h2 {
         font-size: 20px;
+        align-self: center;
     }
 
+    /*  MENU LATERAL */
+    .btnOpen {
+        display: flex;
+        width: 40px;
+        height: 38px;
+    }
+
+    .overlay-menu {
+        background-color: #000;
+        opacity: 0.6;
+        width: 100vw;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: fixed;
+        z-index: 88888;
+
+    }
 
     /* MENU MOBILE */
 
     .buttonMenu {
         display: flex;
-        align-items: center;
         background-color: #445964;
         position: fixed;
         top: 0;
         right: 0;
-        height: 50vh;
+        height: 25vh;
         z-index: 99999;
+        width: 0%;
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 20px 0px;
+        overflow: hidden;
+        transition: 0.5s;
+        justify-content: center;
+    }
+
+    .buttonMenu.abrir-menu ~ .overlay-menu{
+        display: block;
+    }
+
+    .overlay-menu{
+        display: none;
+    }
+
+    .buttonMenu.abrir-menu{
         width: 30%;
     }
 
-    .buttonMenu > nav > a {
-        color: #ffffff;
-        font-size: 16px;
+    .buttonMenu > nav{
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
 
+    .buttonMenu > nav > a {
+        text-align: center;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 300;
+        padding: 8px;
+        display: block;
+    }
+
+    .buttonMenu > nav > a:hover {
+        color: #000;
+        font-weight: 200;
+        font-size: 18px;
+        background-color: #ffffff;
+        transition: 0.5s;
+    }
+    
     header > nav {
         display: none;
     }
@@ -920,37 +985,41 @@ main {
     }
 
     #contato {
-        width: 100%;
-        background-color: #263138;
         display: flex;
-        align-items: center;
-        justify-content: space-around;
         flex-direction: column;
-    }
-
-    #contato > span {
-        width: 240px;
         align-items: center;
-        justify-content: space-around;
-        margin-left: 0px;
+        gap: 29px;
+        background-color: #263138;
     }
     
-    #contato > span > h2 {
+    .nomeContato {
+        display: flex;
+        width: 228px;
+        height: 96px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 29px;
+        gap: 22px;
+    }
+    
+    .nomeContato > span {
+        width: 228px;
+    }
+    
+    .nomeContato > span > h2 {
         font-size: 24px;
     }
     
     #contato > p {
-        width: 214px;
-        align-self: center;
-        margin-bottom: 0px;
         font-size: 14px;
+        width: 214px;
+        margin-bottom: 29px;
         text-align: center;
     }
     
-    #contato > .links {
+    .nomeContato > .links {
         width: 130px;
-        justify-content: space-between;
-        margin-right: 0px;
     }
 
     .links{
