@@ -241,7 +241,7 @@ main {
 
 .jobs {
     display: flex;
-    width: 1266px;
+    width: 100%;
     gap: 90px;
     align-items: end;
     margin-bottom: 90px;
@@ -883,7 +883,6 @@ h3 > span {
     }
 }
 
-
 @media screen and ((min-width:601px) and (max-width:950px)){
     header {
         height: 44px;
@@ -1375,8 +1374,6 @@ h3 > span {
 }
 
 @media screen and (max-width: 600px) {
-
-
     header {
         height: 44px;
         margin-top: 18px;
@@ -1413,8 +1410,7 @@ h3 > span {
         top: 0;
         left: 0;
         position: fixed;
-        z-index: 88888;
-
+        z-index: 888;
     }
 
     /* MENU MOBILE */
@@ -1426,14 +1422,13 @@ h3 > span {
         top: 0;
         right: 0;
         height: 25vh;
-        z-index: 99999;
+        z-index: 999;
         width: 0%;
         flex-direction: column;
         border-radius: 20px;
         padding: 20px 0px;
         overflow: hidden;
         transition: 0.5s;
-        justify-content: center;
     }
 
     .buttonMenu.abrir-menu ~ .overlay-menu{
@@ -1448,7 +1443,7 @@ h3 > span {
         width: 30%;
     }
 
-    .buttonMenu > nav{
+    .buttonMenu > nav {
         display: flex;
         flex-direction: column;
         text-align: center;
