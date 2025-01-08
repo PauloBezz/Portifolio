@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
 
-    <script src="menu.js" defer></script> <!-- DEFER SERVE PARA CARREGAR O SCRIPT ASSIM QUE O HTML CARREGAR TOTALMENTE-->
+    <script src="menu.js" defer></script>
+    <!-- DEFER SERVE PARA CARREGAR O SCRIPT ASSIM QUE O HTML CARREGAR TOTALMENTE-->
     <title>Meu portifólio</title>
 </head>
+
 <body>
+
     <header>
         <span>
             <a href="index.html"><img class="logo" src="/img/logo.png" alt="Logo"></a>
             <h2>Paulo Henrique</h2>
         </span>
 
-        <div class="btnOpen">
+        <button class="btnOpen">
             <img src="img/button-menu.svg" id="btn-menu">
-        </div>
+        </button>
 
-        <div class="buttonMenu" id="conteudo-menu">
+        <section class="contentMenu" id="conteudo-menu">
             <nav>
                 <a href="index.html" target="_self">home</a>
                 <a href="#sobre" target="_self">sobre</a>
@@ -29,7 +33,7 @@
                 <a href="#resumo" target="_self">resumo</a>
                 <a href="#contato" target="_self">contato</a>
             </nav>
-        </div>
+        </section>
 
         <div class="overlay-menu" id="over"></div>
 
@@ -41,43 +45,49 @@
             <a href="#resumo" target="_self">resumo</a>
             <a href="#contato" target="_self">contato</a>
         </nav>
-
-
     </header>
 
-    <main>
-        <div class="inicio">
-        <div class="saudacao">
-                <div class="title">
-                    <h3>Olá pessoas,</h3><h1 class="bigTitle">EU SOU PROGRAMADOR</h1><h3>Seja bem-vindo ao meu portifólio website</h3>
-                </div>
 
-                <div class="button">
+    <main>
+        <section class="inicio">
+            <div class="saudacao">
+                <span class="title">
+                    <h3>Olá pessoas,</h3>
+                    <h1 class="bigTitle">EU SOU PROGRAMADOR</h1>
+                    <h3>Seja bem-vindo ao meu portifólio website</h3>
+                </span>
+
+                <button class="btn">
                     <a href="#sobre" target="_self">Saiba mais sobre mim</a>
-                </div>
+                </button>
 
                 <div class="links">
                     <a href="https://github.com/PauloBezz"><img src="img/Git.svg" alt=""></a>
-                    <a href="https://www.linkedin.com/in/paulo-henrique-83b0a4221/"><img src="img/Linkedin.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/in/paulo-henrique-83b0a4221/"><img src="img/Linkedin.svg"
+                            alt=""></a>
                     <a href="https://www.instagram.com/paul_vaelin/"><img src="img/Instagram.svg" alt=""></a>
                 </div>
             </div>
-        <img class="programador" src="img/ilustration.png" alt="Programmer">
-        </div>
+            <img class="programador" src="img/ilustration.png" alt="Programmer">
+        </section>
     </main>
-    
+
     <section id="sobre">
         <span>
             <div class="icon"></div>
             <h1>Paulo Henrique</h1>
         </span>
-            <h3>My name is Paulo Henrique da Silva Bezerra 👋
-                I'm from Brazil, Pesqueira/PE Studying, 3th period, Development System Technician at the SENAI Suiço-Brasileira.
-          
-                <div class="hardskills">
-            <div class="titleHard"><h1><h1 style="color: #445964;">Hard</h1><h1> Skills</h1></div>
-            <div class="hard">
-                <h3>Python</h3>
+        <h3>My name is Paulo Henrique da Silva Bezerra 👋
+            I'm from Brazil, Pesqueira/PE Studying, 3th period, Development System Technician at the SENAI
+            Suiço-Brasileira.
+
+            <article class="hardskills">
+                <div class="titleHard">
+                    <h1 style="color: #445964;">Hard</h1>
+                    <h1> Skills</h1>
+                </div>
+                <div class="hard">
+                    <h3>Python</h3>
                     <div class="circles">
                         <div class="circlefull"></div>
                         <div class="circlefull"></div>
@@ -87,8 +97,8 @@
                     </div>
                 </div>
 
-            <div class="hard">
-                <h3>HTML</h3>
+                <div class="hard">
+                    <h3>HTML</h3>
                     <div class="circles">
                         <div class="circlefull"></div>
                         <div class="circlefull"></div>
@@ -96,165 +106,182 @@
                         <div class="circlefull"></div>
                         <div class="circle"></div>
                     </div>
-            </div>
-            <div class="hard">
-                <h3>React</h3>
-                <div class="circles">
-                    <div class="circlefull"></div>
-                    <div class="circlefull"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
                 </div>
-            </div>
-            <div class="hard">
-                <h3>C</h3>
-                <div class="circles">
-                    <div class="circlefull"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
+                <div class="hard">
+                    <h3>React</h3>
+                    <div class="circles">
+                        <div class="circlefull"></div>
+                        <div class="circlefull"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
                 </div>
-            </div>
+                <div class="hard">
+                    <h3>C</h3>
+                    <div class="circles">
+                        <div class="circlefull"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
 
-            <div class="hard">
-                <h3>JavaScript</h3>
-                <div class="circles">
-                    <div class="circlefull"></div>
-                    <div class="circlefull"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
+                <div class="hard">
+                    <h3>JavaScript</h3>
+                    <div class="circles">
+                        <div class="circlefull"></div>
+                        <div class="circlefull"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="hard">
-                <h3>CSS</h3>
-                <div class="circles">
-                    <div class="circlefull"></div>
-                    <div class="circlefull"></div>
-                    <div class="circlefull"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
+                <div class="hard">
+                    <h3>CSS</h3>
+                    <div class="circles">
+                        <div class="circlefull"></div>
+                        <div class="circlefull"></div>
+                        <div class="circlefull"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="hard">
-                <h3>Java</h3>
-                <div class="circles">
-                    <div class="circlefull"></div>
-                    <div class="circlefull"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
+                <div class="hard">
+                    <h3>Java</h3>
+                    <div class="circles">
+                        <div class="circlefull"></div>
+                        <div class="circlefull"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="hard">
-                <h3>MySQL</h3>
-                <div class="circles">
-                    <div class="circlefull"></div>
-                    <div class="circlefull"></div>
-                    <div class="circlefull"></div>
-                    <div class="circlefull"></div>
-                    <div class="circlefull"></div>
+                <div class="hard">
+                    <h3>MySQL</h3>
+                    <div class="circles">
+                        <div class="circlefull"></div>
+                        <div class="circlefull"></div>
+                        <div class="circlefull"></div>
+                        <div class="circlefull"></div>
+                        <div class="circlefull"></div>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </article>
     </section>
-        
-        <article id="portifolio">
-            <span class="jobs">
-                <h1 style="color: #000">Meu<span class="titlePort">Portifólio</span></h1>
-                <h3>Estes são alguns dos trabalhos e projetos que já realizei</h3>
-            </span>
 
-            <div class="cards">
-                <nav>
-                    <a href="">All</a>
-                    <a href="">Web App</a>
-                    <a href="">Data Analysis</a>
-                    <a href="">Other</a>
-                </nav>
+    <article id="portifolio">
+        <span class="jobs">
+            <h1 style="color: #000">Meu<span class="titlePort">Portifólio</span></h1>
+            <h3>Estes são alguns dos projetos que já realizei!</h3>
+        </span>
 
-                <div class="card1"></div>
-                <div class="card2"></div>
-                <div class="card3"></div>
-                <div class="card4"></div>
-                <div class="card5"></div>
-                <div class="card6"></div>
+        <div class="cards">
+            <nav>
+                <a>All</a>
+                <a>Web App</a>
+                <a>Data Analysis</a>
+                <a>Other</a>
+            </nav>
+
+            <div class="card1"></div>
+            <div class="card2"></div>
+            <div class="card3"></div>
+            <div class="card4"></div>
+            <div class="card5"></div>
+            <div class="card6"></div>
+        </div>
+
+    </article>
+
+    <aside id="servicos">
+
+        <h1>Minhas <div class="asideTitle">
+                <h1>Techs</h1>
             </div>
+        </h1>
 
-        </article>
-
-        <aside id="servicos">
-
-            <h1>Minhas <div class="asideTitle"><h1>Techs</h1></div></h1>
-
-            <p>Tecnologias</p>
-            <h4 style="color: #445964;">Já <div class="useTitle"><h4>utilizadas</h4></div></h4>
-            <div class="icons">
-                <img src="img/Node.svg" alt="loga Js">
-                <img src="img/Python.svg" alt="loga Js">
-                <img src="img/Eclipse.svg" alt="loga Js">
+        <p>Tecnologias</p>
+        <h4 style="color: #445964;">Já <div class="useTitle">
+                <h4>utilizadas</h4>
             </div>
-            
-            
-            <p>Tecnologias</p>
-            <h4 style="color: #445964;">Atualmente<div class="useTitle"><h4>Desenvolvendo</h4></div></h4>
-            <div class="icons">
-                <img src="img/HTML.svg" alt="loga Js">
-                <img src="img/CSS.svg" alt="loga Js">
-                <img src="img/Javascript.svg" alt="loga Js">
-                <img src="img/React.svg" alt="loga Js">
+        </h4>
+        <div class="icons">
+            <img src="img/Node.svg" alt="loga Js">
+            <img src="img/Python.svg" alt="loga Js">
+            <img src="img/Eclipse.svg" alt="loga Js">
+        </div>
+
+
+        <p>Tecnologias</p>
+        <h4 style="color: #445964;">Atualmente<div class="useTitle">
+                <h4>Desenvolvendo</h4>
             </div>
-        </aside>
+        </h4>
+        <div class="icons">
+            <img src="img/HTML.svg" alt="loga Js">
+            <img src="img/CSS.svg" alt="loga Js">
+            <img src="img/Javascript.svg" alt="loga Js">
+            <img src="img/React.svg" alt="loga Js">
+        </div>
+    </aside>
 
-        <aside id="resumo">
-            <span>
-                <p>Estou caminhando para um presente com real de orgulho e vivo</p>
-                <h1 style="color: #445964">Experiência
-                    <div class="titleResumo"><h1  style="color: #000">Profissional</h1></div></h1>
-            </span>
+    <aside id="resumo">
+        <span>
+            <p>Estou caminhando para um presente ao qual realmente me orgulho e vivo!</p>
+            <h1 style="color: #445964">Experiência
+                <div class="titleResumo">
+                    <h1 style="color: #000">Profissional</h1>
+                </div>
+            </h1>
+        </span>
 
-            <div class="cargos">
+        <div class="cargos">
             <div class="cargo">
                 <h3>Aprendiz de ferramentaria</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p>Inspeção e usinagem de peças, organização e limpeza do setor e manutenção de máquinas.</p>
             </div>
-            <div  class="cargo2">
-                <h3>Porteiro</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <div class="cargo2">
+                <h3>Porteiro/Recepção</h3>
+                <p>Controle de acesso de pacientes e clientes, supervisão de câmeras e registro de correspondências e
+                    receitas.</p>
             </div>
             <div class="cargo">
                 <h3>O que esperar de mim?</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p>Adaptação e constante pensamento de melhoria dos detalhes de projetos e ambiente. Integridade e
+                    respeito com a equipe.</p>
             </div>
         </div>
 
         <img class="aspas" src="img/aspas.svg" alt="Aspas duplas">
 
         <div class="nota">
-            <h3><span>"Aprender </span>é a única coisa que<span> a mente não se cansa,</span> nunca tem medo e nunca se arrepende"</h3>    
+            <h3><span>"Aprender </span>é a única coisa que<span> a mente não se cansa,</span> nunca tem medo e nunca se
+                arrepende"</h3>
         </div>
         <h2 class="author">~Leonardo da Vinci</h2>
 
-        </aside>
+    </aside>
 
     <footer id="contato">
         <div class="nomeContato">
             <span>
-                <a href="index.html"><img class="logo" src="/img/footer-logo.svg" alt="Logo" ></a>
+                <a href="index.html"><img class="logo" src="/img/footer-logo.svg" alt="Logo"></a>
                 <h2>Paulo Henrique</h2>
             </span>
 
             <div class="links">
                 <a href="https://github.com/PauloBezz"><img src="img/footer-Git.svg" alt=""></a>
-                <a href="https://www.linkedin.com/in/paulo-henrique-83b0a4221/"><img src="img/footer-Linkedin.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/paulo-henrique-83b0a4221/"><img src="img/footer-Linkedin.svg"
+                        alt=""></a>
                 <a href="https://www.instagram.com/paul_vaelin/"><img src="img/footer-insta.svg" alt=""></a>
             </div>
         </div>
-        
-        <p>Copyright © 2022 Paulo Henrique - Todos os direitos reservados</p>
+
+        <p>Copyright © 2025 Paulo Henrique - Todos os direitos reservados</p>
     </footer>
 
 </body>
+
 </html>
