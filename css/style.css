@@ -153,10 +153,10 @@ main {
 }
 
 .icon {
-    background-image: url('/img/foto.png');
+    background-image: url('/img/Myself.svg');
     background-repeat: no-repeat;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
 }
 
 #sobre>span {
@@ -301,13 +301,20 @@ main {
 }
 
 .card1 {
+    display: flex;
     width: 340px;
     height: 190px;
     background-color: #263138;
     border-radius: 20px;
 }
 
+.card1>div>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
 .card2 {
+    display: flex;
     width: 340px;
     height: 250px;
     background-color: #445964;
@@ -315,14 +322,26 @@ main {
     margin-bottom: 50px;
 }
 
+.card2>div>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
 .card3 {
+    display: flex;
     width: 340px;
     height: 190px;
     background-color: #DFDFDF;
     border-radius: 20px;
 }
 
+.card3>div>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
 .card4 {
+    display: flex;
     width: 340px;
     height: 250px;
     background-color: #DFDFDF;
@@ -330,14 +349,26 @@ main {
     margin-top: -60px;
 }
 
+.card4>div>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
 .card5 {
+    display: flex;
     width: 340px;
     height: 190px;
     background-color: #263138;
     border-radius: 20px;
 }
 
+.card5>div>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
 .card6 {
+    display: flex;
     width: 340px;
     height: 250px;
     background-color: #445964;
@@ -345,6 +376,10 @@ main {
     margin-top: -60px;
 }
 
+.card6>div>img {
+    width: 100%;
+    border-radius: 20px;
+}
 
 #servicos {
     display: flex;
@@ -719,26 +754,62 @@ h3>span {
 
     .card1 {
         width: 290px;
+        align-items: center;
+    }
+
+    .card1>div>img {
+        width: 96%;
+        border-radius: 10px;
     }
 
     .card2 {
         width: 290px;
+        align-items: center;
+    }
+
+    .card2>div>img {
+        width: 96%;
+        border-radius: 10px;
     }
 
     .card3 {
         width: 290px;
+        align-items: center;
+    }
+
+    .card3>div>img {
+        width: 96%;
+        border-radius: 10px;
     }
 
     .card4 {
         width: 290px;
+        align-items: center;
+    }
+
+    .card4>div>img {
+        width: 96%;
+        border-radius: 10px;
     }
 
     .card5 {
         width: 290px;
+        align-items: center;
+    }
+
+    .card5>div>img {
+        width: 96%;
+        border-radius: 10px;
     }
 
     .card6 {
         width: 290px;
+        align-items: center;
+    }
+
+    .card6>div>img {
+        width: 96%;
+        border-radius: 10px;
     }
 
     #servicos>h1 {
